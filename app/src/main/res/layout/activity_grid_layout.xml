@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/grey"
+    android:columnCount="2"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_columnSpan="2"
+        android:layout_marginBottom="4dp"
+        android:text="@string/gridlayout" />
+
+    <ImageView
+        android:id="@+id/flag_of_austria"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/flag_of_austria" />
+
+    <ImageView
+        android:id="@+id/flag_of_colombia"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/flag_of_colombia" />
+
+    <ImageView
+        android:id="@+id/flag_of_denmark"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/flag_of_denmark" />
+
+    <ImageView
+        android:id="@+id/flag_of_italy"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/flag_of_italy" />
+
+    <ImageView
+        android:id="@+id/flag_of_madagascar"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/flag_of_madagascar" />
+
+    <ImageView
+        android:id="@+id/flag_of_poland"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/flag_of_poland" />
+
+    <ImageView
+        android:id="@+id/flag_of_switzerland"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/flag_of_switzerland" />
+
+    <ImageView
+        android:id="@+id/flag_of_thailand"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/flag_of_thailand" />
+
+    <Button
+        android:id="@+id/endButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/end_button" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/homeButton" />
+
+</GridLayout>

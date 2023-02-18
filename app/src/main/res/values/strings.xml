@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Semenov_Lesson3</string>
+    <string name="button_layout">К следующему Layout</string>
+    <string name="end_button">Назад</string>
+    <string name="linearlayout">LinearLayout</string>
+    <string name="framelayout">FrameLayout</string>
+    <string name="homeButton">Домой</string>
+    <string name="gridlayout">GridLayout</string>
+</resources>
