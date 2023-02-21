@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Aston</string>
-    <string name="welcomes_you_aston">Welcomes you Aston</string>
-    <string name="logo_aston">Logo Aston</string>
+    <string name="welcomes_you_aston">Приветствуем вас в Астон</string>
+    <string name="logo_aston">Лого Астон</string>
     <string name="text1"><b>ИТ-решения для развития бизнеса</b></string>
     <string name="text2">Разработка программного обеспечения</string>
     <string name="aboutText"><b>О нас:</b></string>

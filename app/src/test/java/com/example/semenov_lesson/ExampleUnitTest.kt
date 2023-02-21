@@ -1,4 +1,4 @@
-package com.example.semenov_lesson3
+package com.example.semenov_lesson
 
 import org.junit.Test
 
