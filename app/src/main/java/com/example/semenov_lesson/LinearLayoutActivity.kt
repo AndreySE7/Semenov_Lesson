@@ -1,9 +1,9 @@
-package com.example.semenov_lesson3
+package com.example.semenov_lesson
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.semenov_lesson3.databinding.ActivityLinearLayoutBinding
+import com.example.semenov_lesson.databinding.ActivityLinearLayoutBinding
 
 class LinearLayoutActivity : AppCompatActivity() {
 
