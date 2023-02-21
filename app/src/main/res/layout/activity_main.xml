@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grey"
-    tools:context=".MainActivity">
+    tools:context="com.example.semenov_lesson.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -17,6 +17,7 @@
         android:layout_height="120dp"
         android:layout_gravity="left"
         android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/flag_of_austria"
         tools:ignore="RtlHardcoded" />
 
@@ -26,6 +27,7 @@
         android:layout_height="120dp"
         android:layout_gravity="right"
         android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/flag_of_colombia"
         tools:ignore="RtlHardcoded" />
 
@@ -35,6 +37,7 @@
         android:layout_height="120dp"
         android:layout_gravity="left"
         android:layout_marginTop="164dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/flag_of_denmark"
         tools:ignore="RtlHardcoded" />
 
@@ -44,6 +47,7 @@
         android:layout_height="120dp"
         android:layout_gravity="right"
         android:layout_marginTop="164dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/flag_of_italy"
         tools:ignore="RtlHardcoded" />
 
@@ -53,6 +57,7 @@
         android:layout_height="120dp"
         android:layout_gravity="left"
         android:layout_marginTop="304dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/flag_of_madagascar"
         tools:ignore="RtlHardcoded" />
 
@@ -62,6 +67,7 @@
         android:layout_height="120dp"
         android:layout_gravity="right"
         android:layout_marginTop="304dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/flag_of_poland"
         tools:ignore="RtlHardcoded" />
 
@@ -80,6 +86,7 @@
         android:layout_height="120dp"
         android:layout_gravity="right"
         android:layout_marginTop="444dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/flag_of_thailand"
         tools:ignore="RtlHardcoded" />
 

@@ -20,14 +20,18 @@
 
         <ImageView
             android:id="@+id/flag_of_austria"
-            android:layout_width="200dp"
+            android:layout_width="204dp"
             android:layout_height="120dp"
+            android:paddingHorizontal="8dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/flag_of_austria" />
 
         <ImageView
             android:id="@+id/flag_of_colombia"
-            android:layout_width="200dp"
+            android:layout_width="204dp"
             android:layout_height="120dp"
+            android:paddingHorizontal="8dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/flag_of_colombia" />
 
     </LinearLayout>
@@ -40,14 +44,18 @@
 
         <ImageView
             android:id="@+id/flag_of_denmark"
-            android:layout_width="200dp"
+            android:layout_width="204dp"
             android:layout_height="120dp"
+            android:paddingHorizontal="8dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/flag_of_denmark" />
 
         <ImageView
             android:id="@+id/flag_of_italy"
-            android:layout_width="200dp"
+            android:layout_width="204dp"
             android:layout_height="120dp"
+            android:paddingHorizontal="8dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/flag_of_italy" />
 
     </LinearLayout>
@@ -60,14 +68,18 @@
 
         <ImageView
             android:id="@+id/flag_of_madagascar"
-            android:layout_width="200dp"
+            android:layout_width="204dp"
             android:layout_height="120dp"
+            android:paddingHorizontal="8dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/flag_of_madagascar" />
 
         <ImageView
             android:id="@+id/flag_of_poland"
-            android:layout_width="200dp"
+            android:layout_width="204dp"
             android:layout_height="120dp"
+            android:paddingHorizontal="8dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/flag_of_poland" />
 
     </LinearLayout>
@@ -80,14 +92,16 @@
 
         <ImageView
             android:id="@+id/flag_of_switzerland"
-            android:layout_width="200dp"
+            android:layout_width="204dp"
             android:layout_height="120dp"
             android:src="@drawable/flag_of_switzerland" />
 
         <ImageView
             android:id="@+id/flag_of_thailand"
-            android:layout_width="200dp"
+            android:layout_width="204dp"
             android:layout_height="120dp"
+            android:paddingHorizontal="8dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/flag_of_thailand" />
 
     </LinearLayout>
