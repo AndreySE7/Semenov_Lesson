@@ -16,4 +16,6 @@
     <string name="contactsButton">Контакты</string>
     <string name="vacanciesButton">Вакансии</string>
     <string name="galleryButton">Галерея</string>
+    <string name="title"><b>Android Trainee</b></string>
+    <string name="subtitle">Стажировка по направлению Android</string>
 </resources>

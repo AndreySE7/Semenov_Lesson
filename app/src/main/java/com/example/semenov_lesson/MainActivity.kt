@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         binding.galleryButton.setOnClickListener {
             binding.progressGroup.visibility = View.GONE
             binding.progressBar.visibility = View.VISIBLE
+
         }
     }
 }
