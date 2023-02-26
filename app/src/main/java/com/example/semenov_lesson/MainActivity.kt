@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity() {
             while (true) {
                 val currTime = Calendar.getInstance()
                 val hour = currTime.get(Calendar.HOUR)
-                val minutes = currTime.get(Calendar.MINUTE)
-                val seconds = currTime.get(Calendar.SECOND)
-                time.setTime(hour, minutes, seconds)
+                val minute = currTime.get(Calendar.MINUTE)
+                val second = currTime.get(Calendar.SECOND)
+                time.setTime(hour, minute, second)
                 runOnUiThread {
                     binding.watchView.setNewTime(time)
                 }
