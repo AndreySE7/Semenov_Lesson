@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    namespace 'com.example.semenov_lesson3'
+    namespace 'com.example.semenov_lesson'
     compileSdk 33
     viewBinding {
         enabled = true
     }
 
     defaultConfig {
-        applicationId "com.example.semenov_lesson3"
+        applicationId "com.example.semenov_lesson"
         minSdk 24
         targetSdk 33
         versionCode 1
