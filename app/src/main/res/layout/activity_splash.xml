@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo_aston"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_aston"
+        app:layout_constraintBottom_toTopOf="@+id/authorization"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/authorization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="@string/authorization"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialLogin"
+        app:layout_constraintEnd_toEndOf="@+id/materialLogin"
+        app:layout_constraintStart_toStartOf="@+id/materialLogin" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/materialLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:hint="@string/login"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:singleLine="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/materialPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/materialLogin"
+        app:layout_constraintStart_toStartOf="@+id/materialLogin"
+        app:layout_constraintTop_toBottomOf="@+id/materialLogin"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:hint="@string/password"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="numberPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/errorLogPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_log_pass"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEnter"
+        app:layout_constraintEnd_toEndOf="@+id/materialPassword"
+        app:layout_constraintStart_toStartOf="@+id/materialPassword"
+        app:layout_constraintTop_toBottomOf="@+id/materialPassword" />
+
+    <Button
+        android:id="@+id/buttonEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:enabled="false"
+        android:text="@string/enter"
+        app:layout_constraintEnd_toEndOf="@+id/materialPassword"
+        app:layout_constraintStart_toStartOf="@+id/materialPassword"
+        app:layout_constraintTop_toBottomOf="@+id/materialPassword" />
+
+    <Button
+        android:id="@+id/buttonForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/button_forgot_password"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/materialPassword"
+        app:layout_constraintStart_toStartOf="@+id/materialPassword" />
+
+    <TextView
+        android:id="@+id/forgotLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/forgot_login"
+        app:layout_constraintBottom_toTopOf="@+id/forgotPassword"
+        app:layout_constraintEnd_toEndOf="@+id/forgotPassword"
+        app:layout_constraintStart_toStartOf="@+id/forgotPassword" />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/forgot_password"
+        app:layout_constraintBottom_toTopOf="@+id/buttonForgotPassword"
+        app:layout_constraintEnd_toEndOf="@+id/buttonForgotPassword"
+        app:layout_constraintStart_toStartOf="@+id/buttonForgotPassword" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/groupForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="forgotLogin, forgotPassword" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/progressGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="logo_aston, authorization, materialLogin, materialPassword,
+         buttonEnter, buttonForgotPassword" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:indeterminateTint="@color/blue"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

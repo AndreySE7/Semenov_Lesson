@@ -1,14 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Aston</string>
-    <string name="welcomes_you_aston">Welcomes you Aston</string>
-    <string name="logo_aston">Logo Aston</string>
+    <string name="welcomes_you_aston">Приветствуем вас в Астон</string>
+    <string name="logo_aston">Лого Астон</string>
     <string name="text1"><b>ИТ-решения для развития бизнеса</b></string>
     <string name="text2">Разработка программного обеспечения</string>
     <string name="aboutText"><b>О нас:</b></string>
     <string name="aboutAston">Aston — компания по разработке ПО с полным циклом услуг. Уже 15 лет мы помогаем заказчикам по всему миру трансформировать бизнес, создавая эффективные мобильные решения и десктопные решения.</string>
     <string name="textOffice"><b>Офисы</b></string>
     <string name="officeMoscow">Москва</string>
-    <string name="addressOfficeMoscow">Пресненская набережная, д.6, стр. 2, БЦ «Башня Империя», 3 подъезд, 53 этаж, офис 13</string>
+    <string name="addressOfficeMoscow">Пресненская набережная, д.6, стр. 2,\n БЦ «Башня Империя», 3 подъезд, 53 этаж, офис 13</string>
     <string name="officeKazan">Казань</string>
     <string name="addressOfficeKazan">ул. Н. Ершова, 76/1, оф. 213</string>
     <string name="officeRostovOnDon">Ростов-на-Дону</string>

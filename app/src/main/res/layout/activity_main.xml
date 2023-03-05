@@ -1,94 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/grey"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentHome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_home" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/framelayout" />
+        app:itemIconSize="48dp"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_navigation" />
 
-    <ImageView
-        android:id="@+id/flag_of_austria"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_gravity="left"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/flag_of_austria"
-        tools:ignore="RtlHardcoded" />
-
-    <ImageView
-        android:id="@+id/flag_of_colombia"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_gravity="right"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/flag_of_colombia"
-        tools:ignore="RtlHardcoded" />
-
-    <ImageView
-        android:id="@+id/flag_of_denmark"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_gravity="left"
-        android:layout_marginTop="164dp"
-        android:src="@drawable/flag_of_denmark"
-        tools:ignore="RtlHardcoded" />
-
-    <ImageView
-        android:id="@+id/flag_of_italy"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_gravity="right"
-        android:layout_marginTop="164dp"
-        android:src="@drawable/flag_of_italy"
-        tools:ignore="RtlHardcoded" />
-
-    <ImageView
-        android:id="@+id/flag_of_madagascar"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_gravity="left"
-        android:layout_marginTop="304dp"
-        android:src="@drawable/flag_of_madagascar"
-        tools:ignore="RtlHardcoded" />
-
-    <ImageView
-        android:id="@+id/flag_of_poland"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_gravity="right"
-        android:layout_marginTop="304dp"
-        android:src="@drawable/flag_of_poland"
-        tools:ignore="RtlHardcoded" />
-
-    <ImageView
-        android:id="@+id/flag_of_switzerland"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_gravity="left"
-        android:layout_marginTop="444dp"
-        android:src="@drawable/flag_of_switzerland"
-        tools:ignore="RtlHardcoded" />
-
-    <ImageView
-        android:id="@+id/flag_of_thailand"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_gravity="right"
-        android:layout_marginTop="444dp"
-        android:src="@drawable/flag_of_thailand"
-        tools:ignore="RtlHardcoded" />
-
-    <Button
-        android:id="@+id/linearLayoutButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="580dp"
-        android:text="@string/button_layout" />
-
-</FrameLayout>
+</LinearLayout>
