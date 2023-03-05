@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homePage"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_48"
+        android:title="@string/mainPage"
+        app:itemIconSize="48dp" />
+    <item
+        android:id="@+id/vacancies"
+        android:enabled="true"
+        android:icon="@drawable/baseline_person_search_48"
+        android:title="@string/vacancies"
+        app:itemIconSize="48dp" />
+    <item
+        android:id="@+id/offices"
+        android:enabled="true"
+        android:icon="@drawable/baseline_office_48"
+        android:title="@string/offices"
+        app:itemIconSize="48dp" />
+</menu>
